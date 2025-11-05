@@ -23,11 +23,14 @@ __pycache__/
 *.sqlite3
 *.egg-info/
 *.log
-output/
 venv/
 .env
 .env.*
 .DS_Store
+# --- Keep only required files from output ---
+output/*
+!output/xgb_salary_model_optimized.pkl
+!output/19kdata.csv
 
 # -----------------------
 # IDE / System Files
