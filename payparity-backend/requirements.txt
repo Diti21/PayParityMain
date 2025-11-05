@@ -1,3 +1,7 @@
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==2.0.0+cpu
+easyocr==1.7.1
+
 fastapi
 uvicorn
 joblib
@@ -12,4 +16,4 @@ httpx
 pytesseract
 Pillow
 pdf2image
-easyocr
+
