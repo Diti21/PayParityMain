@@ -1,11 +1,27 @@
+# # torch==2.5.1
+# # torchvision==0.20.1
+# # torchaudio==2.5.1
 # torch==2.5.1
-# torchvision==0.20.1
-# torchaudio==2.5.1
-torch==2.5.1
-easyocr==1.7.1
+# easyocr==1.7.1
+# uvicorn
+# joblib
+# scikit-learn==1.6.1
+# xgboost
+# pandas
+# numpy
+# PyPDF2
+# python-docx
+# requests
+# httpx
+# pytesseract
+# Pillow
+# pdf2image
+
+# ---------- CORE ----------
+fastapi
 uvicorn
 joblib
-scikit-learn==1.6.1
+scikit-learn
 xgboost
 pandas
 numpy
@@ -16,4 +32,8 @@ httpx
 pytesseract
 Pillow
 pdf2image
+python-dotenv
 
+# ---------- OCR ----------
+torch==2.2.0
+easyocr==1.7.1
