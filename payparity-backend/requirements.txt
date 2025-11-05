@@ -12,3 +12,4 @@ httpx
 pytesseract
 Pillow
 pdf2image
+easyocr
