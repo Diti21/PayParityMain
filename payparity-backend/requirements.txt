@@ -35,5 +35,5 @@ pdf2image
 python-dotenv
 
 # ---------- OCR ----------
-torch==2.2.0
+torch
 easyocr==1.7.1
